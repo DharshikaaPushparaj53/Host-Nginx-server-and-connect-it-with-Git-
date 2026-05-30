@@ -1,43 +1,87 @@
 # Host-Nginx-server-and-connect-it-with-Git-
-Hosting an app in an Nginx web server and connecting it to a Git version control system
+**Hosting an app in an Nginx web server and connecting it to a Git version control system**
 
-1. Create a VM in the AWS platform
+**1. Create a VM in the AWS platform**
    
-2. Update and upgrade the Instance
+**2. Update and upgrade the Instance**
    
-     sudo apt update -y
+        sudo apt update -y
    
-     sudo apt upgrade -y
+        sudo apt upgrade -y
 
-3. Install the Nginx server on the virtual machine instance
+**3. Install the Nginx server on the virtual machine instance**
 
-     apt install nginx -y
+        apt install nginx -y
 
-     systemctl start nginx
+        systemctl start nginx
 
-     systemctl enable nginx
+        systemctl enable nginx
 
-     systemctl status nginx
+        systemctl status nginx
 
-4. Test Nginx
+**4. Test Nginx**
 
-     http://3.15.171.16
+        http://3.15.171.16
 
-Public IP address of your instance. (Welcome to nginx page will appear)
+**Public IP address of your instance. (Welcome to nginx page will appear)**
 
-5. Create your HTML application
+**5. Create your HTML application**
 
-     cd /var/www/html
+        cd /var/www/html
 
-     ls
+        ls
 
-     index.nginx-debian.html
+        index.nginx-debian.html
 
-     rm index.nginx-debian.html
+        rm index.nginx-debian.html
 
-6. Create an HTML file
+**6. Create an HTML file**
 
-     vim index.html
+        vim index.html
+
+**Code is there in to do app code.txt file. Paste it into the index.html file**
+
+**7. Test your app**
+
+**8. Install Git**
+
+         apt install git -y
+
+         git --version
+
+         mkdir devops-webapp
+
+         cd devops-webapp
+
+         git init
+
+         cp /var/www/html/index.html .
+
+         ls
+
+         git add .
+
+         git config --global user.name "Dharshika Poopalan"
+
+         git config --global user.email "dharshikasms@gmail.com"
+
+         git commit -m "First DevOps Web App"
+
+         git remote add origin URL/devops-webapp
+
+         git remote -v
+
+         git branch
+
+         git branch -M main
+
+         git push -u origin main
+
+         git clone URL+Repo which need to be cloned
+
+**Difference between Clone and Push** 
+
+
 
      
 
