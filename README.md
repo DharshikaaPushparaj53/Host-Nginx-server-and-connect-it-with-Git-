@@ -42,27 +42,46 @@
 **Some shortcuts that will be useful in the Vim text editor**
 
 Esc + u              -> undo 
+
 Esc + gg             -> move to 1st line in the code
+
 Esc + gg + d + G     -> move to 1st line in the code, delete everything in the code
+
 Esc + dd             -> removes the line where the cursor is placed 
 
-i      -> Insert mode
-Esc    -> Normal mode
-dd     -> Cut line
-yy     -> Copy line
-p      -> Paste
-u      -> Undo
-Ctrl+r -> Redo
-:wq    -> Save and quit
-:q!    -> Quit without saving
-o      -> insert new line 
-gg     -> Go to the beginning of the file
-G      -> Go to the end of the file
-50G    -> Go to line 50
-h      -> Move left
-j      -> Move down 
-k      -> Move up 
-l      -> Move right 
+i                    -> Insert mode
+
+Esc                  -> Normal mode
+
+dd                   -> Cut line
+
+yy                   -> Copy line
+
+p                    -> Paste
+
+u                    -> Undo
+
+Ctrl+r               -> Redo
+
+:wq                  -> Save and quit
+
+:q!                  -> Quit without saving
+
+o                    -> insert new line 
+
+gg                   -> Go to the beginning of the file
+
+G                    -> Go to the end of the file
+
+50G                  -> Go to line 50
+
+h                    -> Move left
+
+j                    -> Move down 
+
+k                    -> Move up
+
+l                    -> Move right 
 
 **Code is there in to do app code.txt file. Paste it into the index.html file**
 
@@ -106,6 +125,10 @@ l      -> Move right
 
 **Difference between Clone and Push** 
 
+| Command   | Purpose                                                           |
+| --------- | ----------------------------------------------------------------- |
+| git clone | Downloads an existing repository from GitHub to the local machine |
+| git push  | Uploads local commits to the remote repository                    |
 
 
      
