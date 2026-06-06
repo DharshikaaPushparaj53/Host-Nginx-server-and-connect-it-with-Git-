@@ -111,7 +111,11 @@ l                    -> Move right
 
          git commit -m "First DevOps Web App"
 
-         git remote add origin URL/devops-webapp
+         git remote add origin URL/devops-webapp.git
+
+         git status
+
+         git log
 
          git remote -v
 
@@ -121,7 +125,7 @@ l                    -> Move right
 
          git push -u origin main
 
-         git clone URL+Repo which need to be cloned
+         git clone URL+Repo, which needs to be cloned
 
 **Difference between Clone and Push** 
 
